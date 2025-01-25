@@ -1,0 +1,37 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1158px;
+    padding: 24px 15px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
+    transform: scale(1.0444, 1.04);
+}
+
+.gallery-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.basicLightbox__placeholder {
+    background-color: rgba(46, 47, 66, 0.8);
+}
